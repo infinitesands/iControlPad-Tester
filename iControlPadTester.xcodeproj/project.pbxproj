@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCB884A133C56FA00C3406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCB8849133C56FA00C3406E /* UIKit.framework */; };
+		CBCB884C133C56FA00C3406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCB884B133C56FA00C3406E /* Foundation.framework */; };
+		CBCB884E133C56FA00C3406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCB884D133C56FA00C3406E /* CoreGraphics.framework */; };
+		CBCB8854133C56FA00C3406E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBCB8852133C56FA00C3406E /* InfoPlist.strings */; };
+		CBCB8857133C56FA00C3406E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB8856133C56FA00C3406E /* main.m */; };
+		CBCB885A133C56FB00C3406E /* iControlPadTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB8859133C56FB00C3406E /* iControlPadTesterAppDelegate.m */; };
+		CBCB885D133C56FB00C3406E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCB885B133C56FB00C3406E /* MainWindow.xib */; };
+		CBCB8860133C56FB00C3406E /* iControlPadTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB885F133C56FB00C3406E /* iControlPadTesterViewController.m */; };
+		CBCB8863133C56FB00C3406E /* iControlPadTesterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCB8861133C56FB00C3406E /* iControlPadTesterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBCB8845133C56FA00C3406E /* iControlPadTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iControlPadTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCB8849133C56FA00C3406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBCB884B133C56FA00C3406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBCB884D133C56FA00C3406E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBCB8851133C56FA00C3406E /* iControlPadTester-Info.plist */ = {isa = PBXFileReference; path = "iControlPadTester-Info.plist"; sourceTree = "<group>"; };
+		CBCB8853133C56FA00C3406E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBCB8855133C56FA00C3406E /* iControlPadTester-Prefix.pch */ = {isa = PBXFileReference; path = "iControlPadTester-Prefix.pch"; sourceTree = "<group>"; };
+		CBCB8856133C56FA00C3406E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBCB8858133C56FB00C3406E /* iControlPadTesterAppDelegate.h */ = {isa = PBXFileReference; path = iControlPadTesterAppDelegate.h; sourceTree = "<group>"; };
+		CBCB8859133C56FB00C3406E /* iControlPadTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iControlPadTesterAppDelegate.m; sourceTree = "<group>"; };
+		CBCB885C133C56FB00C3406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CBCB885E133C56FB00C3406E /* iControlPadTesterViewController.h */ = {isa = PBXFileReference; path = iControlPadTesterViewController.h; sourceTree = "<group>"; };
+		CBCB885F133C56FB00C3406E /* iControlPadTesterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iControlPadTesterViewController.m; sourceTree = "<group>"; };
+		CBCB8862133C56FB00C3406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iControlPadTesterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCB8842133C56FA00C3406E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCB884A133C56FA00C3406E /* UIKit.framework in Frameworks */,
+				CBCB884C133C56FA00C3406E /* Foundation.framework in Frameworks */,
+				CBCB884E133C56FA00C3406E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCB883A133C56F500C3406E = {
+			isa = PBXGroup;
+			children = (
+				CBCB884F133C56FA00C3406E /* iControlPadTester */,
+				CBCB8848133C56FA00C3406E /* Frameworks */,
+				CBCB8846133C56FA00C3406E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCB8846133C56FA00C3406E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB8845133C56FA00C3406E /* iControlPadTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCB8848133C56FA00C3406E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB8849133C56FA00C3406E /* UIKit.framework */,
+				CBCB884B133C56FA00C3406E /* Foundation.framework */,
+				CBCB884D133C56FA00C3406E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBCB884F133C56FA00C3406E /* iControlPadTester */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB8858133C56FB00C3406E /* iControlPadTesterAppDelegate.h */,
+				CBCB8859133C56FB00C3406E /* iControlPadTesterAppDelegate.m */,
+				CBCB885B133C56FB00C3406E /* MainWindow.xib */,
+				CBCB885E133C56FB00C3406E /* iControlPadTesterViewController.h */,
+				CBCB885F133C56FB00C3406E /* iControlPadTesterViewController.m */,
+				CBCB8861133C56FB00C3406E /* iControlPadTesterViewController.xib */,
+				CBCB8850133C56FA00C3406E /* Supporting Files */,
+			);
+			path = iControlPadTester;
+			sourceTree = "<group>";
+		};
+		CBCB8850133C56FA00C3406E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB8851133C56FA00C3406E /* iControlPadTester-Info.plist */,
+				CBCB8852133C56FA00C3406E /* InfoPlist.strings */,
+				CBCB8855133C56FA00C3406E /* iControlPadTester-Prefix.pch */,
+				CBCB8856133C56FA00C3406E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCB8844133C56FA00C3406E /* iControlPadTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCB8866133C56FB00C3406E /* Build configuration list for PBXNativeTarget "iControlPadTester" */;
+			buildPhases = (
+				CBCB8841133C56FA00C3406E /* Sources */,
+				CBCB8842133C56FA00C3406E /* Frameworks */,
+				CBCB8843133C56FA00C3406E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iControlPadTester;
+			productName = iControlPadTester;
+			productReference = CBCB8845133C56FA00C3406E /* iControlPadTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCB883C133C56F500C3406E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Infinite Sands";
+			};
+			buildConfigurationList = CBCB883F133C56F500C3406E /* Build configuration list for PBXProject "iControlPadTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBCB883A133C56F500C3406E;
+			productRefGroup = CBCB8846133C56FA00C3406E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCB8844133C56FA00C3406E /* iControlPadTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCB8843133C56FA00C3406E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCB8854133C56FA00C3406E /* InfoPlist.strings in Resources */,
+				CBCB885D133C56FB00C3406E /* MainWindow.xib in Resources */,
+				CBCB8863133C56FB00C3406E /* iControlPadTesterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCB8841133C56FA00C3406E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCB8857133C56FA00C3406E /* main.m in Sources */,
+				CBCB885A133C56FB00C3406E /* iControlPadTesterAppDelegate.m in Sources */,
+				CBCB8860133C56FB00C3406E /* iControlPadTesterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBCB8852133C56FA00C3406E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCB8853133C56FA00C3406E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBCB885B133C56FB00C3406E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCB885C133C56FB00C3406E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CBCB8861133C56FB00C3406E /* iControlPadTesterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCB8862133C56FB00C3406E /* en */,
+			);
+			name = iControlPadTesterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCB8864133C56FB00C3406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBCB8865133C56FB00C3406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CBCB8867133C56FB00C3406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iControlPadTester/iControlPadTester-Prefix.pch";
+				INFOPLIST_FILE = "iControlPadTester/iControlPadTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBCB8868133C56FB00C3406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iControlPadTester/iControlPadTester-Prefix.pch";
+				INFOPLIST_FILE = "iControlPadTester/iControlPadTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCB883F133C56F500C3406E /* Build configuration list for PBXProject "iControlPadTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCB8864133C56FB00C3406E /* Debug */,
+				CBCB8865133C56FB00C3406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCB8866133C56FB00C3406E /* Build configuration list for PBXNativeTarget "iControlPadTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCB8867133C56FB00C3406E /* Debug */,
+				CBCB8868133C56FB00C3406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCB883C133C56F500C3406E /* Project object */;
+}
