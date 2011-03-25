@@ -2,8 +2,7 @@
 //  iControlPadTesterAppDelegate.h
 //  iControlPadTester
 //
-//  Created by Jerason Banes on 3/24/11.
-//  Copyright 2011 Infinite Sands. All rights reserved.
+//  Created by Infinite Sands on 3/24/11.
 //
 
 #import <UIKit/UIKit.h>

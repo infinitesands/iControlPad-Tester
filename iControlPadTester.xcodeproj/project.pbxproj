@@ -16,6 +16,9 @@
 		CBCB885D133C56FB00C3406E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCB885B133C56FB00C3406E /* MainWindow.xib */; };
 		CBCB8860133C56FB00C3406E /* iControlPadTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB885F133C56FB00C3406E /* iControlPadTesterViewController.m */; };
 		CBCB8863133C56FB00C3406E /* iControlPadTesterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCB8861133C56FB00C3406E /* iControlPadTesterViewController.xib */; };
+		CBCB886B133C57A000C3406E /* iControlPadReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB886A133C57A000C3406E /* iControlPadReaderView.m */; };
+		CBCB887B133D26CE00C3406E /* ButtonStates.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB887A133D26CE00C3406E /* ButtonStates.m */; };
+		CBCB8881133D2DDC00C3406E /* VirtualControlPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB8880133D2DD800C3406E /* VirtualControlPad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,22 @@
 		CBCB8849133C56FA00C3406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBCB884B133C56FA00C3406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBCB884D133C56FA00C3406E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CBCB8851133C56FA00C3406E /* iControlPadTester-Info.plist */ = {isa = PBXFileReference; path = "iControlPadTester-Info.plist"; sourceTree = "<group>"; };
+		CBCB8851133C56FA00C3406E /* iControlPadTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iControlPadTester-Info.plist"; sourceTree = "<group>"; };
 		CBCB8853133C56FA00C3406E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBCB8855133C56FA00C3406E /* iControlPadTester-Prefix.pch */ = {isa = PBXFileReference; path = "iControlPadTester-Prefix.pch"; sourceTree = "<group>"; };
+		CBCB8855133C56FA00C3406E /* iControlPadTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iControlPadTester-Prefix.pch"; sourceTree = "<group>"; };
 		CBCB8856133C56FA00C3406E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBCB8858133C56FB00C3406E /* iControlPadTesterAppDelegate.h */ = {isa = PBXFileReference; path = iControlPadTesterAppDelegate.h; sourceTree = "<group>"; };
+		CBCB8858133C56FB00C3406E /* iControlPadTesterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iControlPadTesterAppDelegate.h; sourceTree = "<group>"; };
 		CBCB8859133C56FB00C3406E /* iControlPadTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iControlPadTesterAppDelegate.m; sourceTree = "<group>"; };
 		CBCB885C133C56FB00C3406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		CBCB885E133C56FB00C3406E /* iControlPadTesterViewController.h */ = {isa = PBXFileReference; path = iControlPadTesterViewController.h; sourceTree = "<group>"; };
+		CBCB885E133C56FB00C3406E /* iControlPadTesterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iControlPadTesterViewController.h; sourceTree = "<group>"; };
 		CBCB885F133C56FB00C3406E /* iControlPadTesterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iControlPadTesterViewController.m; sourceTree = "<group>"; };
 		CBCB8862133C56FB00C3406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iControlPadTesterViewController.xib; sourceTree = "<group>"; };
+		CBCB8869133C57A000C3406E /* iControlPadReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iControlPadReaderView.h; sourceTree = "<group>"; };
+		CBCB886A133C57A000C3406E /* iControlPadReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iControlPadReaderView.m; sourceTree = "<group>"; };
+		CBCB8879133D26CD00C3406E /* ButtonStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStates.h; sourceTree = "<group>"; };
+		CBCB887A133D26CE00C3406E /* ButtonStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStates.m; sourceTree = "<group>"; };
+		CBCB887F133D2DD700C3406E /* VirtualControlPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualControlPad.h; sourceTree = "<group>"; };
+		CBCB8880133D2DD800C3406E /* VirtualControlPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualControlPad.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,7 @@
 		CBCB884F133C56FA00C3406E /* iControlPadTester */ = {
 			isa = PBXGroup;
 			children = (
+				CBCB887C133D26D400C3406E /* IO */,
 				CBCB8858133C56FB00C3406E /* iControlPadTesterAppDelegate.h */,
 				CBCB8859133C56FB00C3406E /* iControlPadTesterAppDelegate.m */,
 				CBCB885B133C56FB00C3406E /* MainWindow.xib */,
@@ -86,6 +96,8 @@
 				CBCB885F133C56FB00C3406E /* iControlPadTesterViewController.m */,
 				CBCB8861133C56FB00C3406E /* iControlPadTesterViewController.xib */,
 				CBCB8850133C56FA00C3406E /* Supporting Files */,
+				CBCB887F133D2DD700C3406E /* VirtualControlPad.h */,
+				CBCB8880133D2DD800C3406E /* VirtualControlPad.m */,
 			);
 			path = iControlPadTester;
 			sourceTree = "<group>";
@@ -99,6 +111,17 @@
 				CBCB8856133C56FA00C3406E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBCB887C133D26D400C3406E /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB8879133D26CD00C3406E /* ButtonStates.h */,
+				CBCB887A133D26CE00C3406E /* ButtonStates.m */,
+				CBCB8869133C57A000C3406E /* iControlPadReaderView.h */,
+				CBCB886A133C57A000C3406E /* iControlPadReaderView.m */,
+			);
+			name = IO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +190,9 @@
 				CBCB8857133C56FA00C3406E /* main.m in Sources */,
 				CBCB885A133C56FB00C3406E /* iControlPadTesterAppDelegate.m in Sources */,
 				CBCB8860133C56FB00C3406E /* iControlPadTesterViewController.m in Sources */,
+				CBCB886B133C57A000C3406E /* iControlPadReaderView.m in Sources */,
+				CBCB887B133D26CE00C3406E /* ButtonStates.m in Sources */,
+				CBCB8881133D2DDC00C3406E /* VirtualControlPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,13 +2,12 @@
 //  iControlPadTesterAppDelegate.m
 //  iControlPadTester
 //
-//  Created by Jerason Banes on 3/24/11.
-//  Copyright 2011 Infinite Sands. All rights reserved.
+//  Created by Infinite Sands on 3/24/11.
 //
 
 #import "iControlPadTesterAppDelegate.h"
-
 #import "iControlPadTesterViewController.h"
+#import "VirtualControlPad.h"
 
 @implementation iControlPadTesterAppDelegate
 
@@ -22,7 +21,11 @@
     // Override point for customization after application launch.
      
     self.window.rootViewController = self.viewController;
+    self.viewController.view = [[VirtualControlPad alloc] init];
+    
     [self.window makeKeyAndVisible];
+    [self.viewController.view becomeFirstResponder];
+    
     return YES;
 }
 
@@ -51,9 +54,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    /*
-     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-     */
+    [self.viewController.view becomeFirstResponder];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -67,6 +68,7 @@
 
 - (void)dealloc
 {
+    [self.viewController.view release];
     [_window release];
     [_viewController release];
     [super dealloc];
