@@ -13,6 +13,7 @@
 - (id)initWithFrame:(CGRect)frame 
 {
     self = [super initWithFrame:frame];
+    inputView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 1, 1)];
     
     return self;
 }
@@ -28,9 +29,14 @@
     [self becomeFirstResponder];
 } 
 
-- (void)drawRect:(CGRect)rect 
+- (void) drawRect:(CGRect)rect 
 {
     // This space intentionally left blank. Woot.
+}
+
+- (UIView*) inputView
+{
+    return inputView;
 }
 
 #pragma mark -

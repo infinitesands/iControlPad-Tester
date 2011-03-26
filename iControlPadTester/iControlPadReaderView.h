@@ -9,6 +9,7 @@
 
 @interface iControlPadReaderView : UIView <UIKeyInput> 
 { 
+    UIView *inputView;
 }  
 
 @end
